@@ -1,0 +1,16 @@
+ str = a b c
+
+
+START 
+READ a, b
+Set A = 4
+Set b = 3
+Set A - a +b
+Set b - a-b
+Set a - a - b
+print a, b' 
+end  
+
+str = "abc";
+
+dbms 
