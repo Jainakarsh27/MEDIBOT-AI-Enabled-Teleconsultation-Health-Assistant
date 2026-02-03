@@ -1,0 +1,28 @@
+:root{
+  --primary:#2D6CDF;
+  --accent:#00C2A8;
+  --pink:#FF2D6F;
+  --bg:#F1F5F9;
+  --card:#fff;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial; margin:0; background:var(--bg); color:#0f172a;}
+.site{min-height:100vh; display:flex; flex-direction:column;}
+.container{width:100%; max-width:1100px; margin:28px auto; padding:0 16px; flex:1}
+header.site-header{background:var(--primary); color:white; padding:12px 16px; display:flex; justify-content:space-between; align-items:center; border-radius:0 0 12px 12px;}
+header.site-header a{color:white; text-decoration:none; margin-left:12px;}
+.header-left{display:flex; align-items:center; gap:12px}
+.brand{font-weight:700; font-size:20px}
+.nav-links{display:flex; align-items:center}
+
+.card{background:var(--card); padding:18px; border-radius:12px; box-shadow: 0 6px 20px rgba(15,23,42,0.06); margin-bottom:18px}
+
+.grid{display:grid; gap:16px}
+.grid.cols-3{grid-template-columns:repeat(3,1fr)}
+
+footer{padding:12px; text-align:center; color:#64748b; font-size:14px}
+.section-title{font-size:20px; font-weight:700; margin-bottom:12px}
+
+/* small components */
+.button{background:var(--primary); color:white; border:none; padding:8px 12px; border-radius:8px; cursor:pointer}
+.small{font-size:14px}
